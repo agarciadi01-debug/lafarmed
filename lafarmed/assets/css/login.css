@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* FONDO */
+.fondo {
+    background: url("https://wallpapers.com/images/hd/healthcare-background-1920-x-1080-yfs6hjb8xg10qf7z.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(4px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* TARJETA LOGIN */
+.login-card {
+    width: 450px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 6px 30px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.login-card h2 {
+    margin-bottom: 20px;
+    color: #0b1e3e;
+}
+
+.logo img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+/* INPUTS */
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #cfd6e3;
+    outline: none;
+    padding-left: 40px;
+    background-color: #f1f5ff;
+}
+
+.input-group label {
+    position: absolute;
+    left: 15px;
+    top: -10px;
+    background: white;
+    padding: 0 4px;
+    font-size: 12px;
+    color: #28344d;
+}
+
+.input-group span {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: #4c5a74;
+}
+
+/* SELECT */
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #cfd6e3;
+    background-color: #f1f5ff;
+    margin-bottom: 20px;
+    color: #28344d;
+}
+
+/* BOTÓN */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #0066ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #004fcc;
+}
+
+/* ERROR */
+.error {
+    color: red;
+    margin-top: 10px;
+}
